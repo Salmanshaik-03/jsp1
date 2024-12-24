@@ -12,4 +12,19 @@ let platform=prompt("enter the platform");
             occassion:occassion,
             platform:platform,
         }
-        alert(`${obj.name} has purchased a ${obj.item} which costs ${obj.price} on ${obj.day} on occassion of ${obj.occassion} in ${obj.platform}`);
+        alert(`${obj.name} has purchased a ${obj.item} which costs ${obj.price} on ${obj.day} on the occassion of ${obj.occassion} in ${obj.platform}`);
+
+let studname=prompt("enter the studentname");
+let companyname=prompt("enter the company name");
+let package=prompt("enter the package");
+let domain=prompt("enter the domain");
+let joindate=prompt("enter the join date");
+
+        let std={
+            name:studname,
+            company:companyname,
+            package:package,
+            domain:domain,
+            joiningdate:joindate,
+        }
+alert(`${std.name} got placed in ${std.company} company as a ${std.domain} with package of ${std.package} and joining is on coming ${std.joiningdate}`);
